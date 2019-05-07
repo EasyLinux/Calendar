@@ -1,23 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css' type='text/css' rel='stylesheet'/>
-  
-  <link href='css/courrier.css' type='text/css' rel='stylesheet'/>
-  <link rel='shortcut icon' href='favicon.ico' />
-  <meta content='text/html; charset=UTF-8' http-equiv='content-type'/>
-  <title>Gestion du courrier</title>
+    <link href='css/calendar.css' type='text/css' rel='stylesheet'/>
+    <link rel='shortcut icon' href='favicon.ico' />
+    <meta content='text/html; charset=UTF-8' http-equiv='content-type'/>
+    <title>{#Title#} {$Version}</title>
   <!-- <script language='JavaScript' src='javascript/MD5.js' type='text/javascript'></script>
-  <script language='JavaScript' src='javascript/login.js' type='text/javascript'></script> -->
-  <script
-			  src="https://code.jquery.com/jquery-3.4.0.min.js"
-			  integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg="
-			  crossorigin="anonymous"></script>
-  <script
-			  src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
-			  integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
-			  crossorigin="anonymous"></script>
-  <script language='JavaScript' src='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js' type='text/javascript'></script>
-  <script language='JavaScript' src='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js' type='text/javascript'></script>
+    <script language='JavaScript' src='js/login.js' type='text/javascript'></script> -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/calendar.css" rel="stylesheet">
+	
+		<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+		<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </head>
 <body>

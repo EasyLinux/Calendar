@@ -9,18 +9,30 @@
  * @license  GNU GPL
  * @link     http://www.easylinux.fr/calendar
  */
-require __DIR__ . '/vendor/autoload.php';
+require 'vendor/autoload.php';
+// get back sessions_var
+session_start();
 
-$smarty = new Smarty();
-$smarty->template_dir = 'templates/';
-$smarty->compile_dir  = 'templates_c/';
-$smarty->config_dir   = 'templates/languages/';
+$oSmarty = new Smarty();
+$oSmarty->template_dir = 'templates/';
+$oSmarty->compile_dir  = 'templates_c/';
+$oSmarty->config_dir   = 'templates/languages/';
 
 
 if (!file_exists('config/config.php')) {
     echo "Config not done !";
     header('Location: install/setup.php');
 }
-echo file_get_contents("templates/index.smarty");
-//header("Location: calendarserver.php/");
-//echo getcwd() . " " . $_SERVER['DOCUMENT_ROOT'];
+
+require 'config/config.php';
+
+if ($_SESSION['bLogged'] == null) {
+    header("Location: login.php");
+}
+
+$sError="";
+$sFile = "index/".LANG.".txt";
+$oSmarty->assign('File', $sFile);
+$oSmarty->assign('Version', VERSION);
+$oSmarty->assign('Error', $sError);
+$oSmarty->display("index.smarty");

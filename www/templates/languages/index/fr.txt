@@ -1,0 +1,2 @@
+# Fichier index.smarty.fr
+Title = "Gestion d'agenda"
