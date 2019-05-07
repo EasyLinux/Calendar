@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css' type='text/css' rel='stylesheet'/>
+  
+  <link href='css/courrier.css' type='text/css' rel='stylesheet'/>
+  <link rel='shortcut icon' href='favicon.ico' />
+  <meta content='text/html; charset=UTF-8' http-equiv='content-type'/>
+  <title>Gestion du courrier</title>
+  <!-- <script language='JavaScript' src='javascript/MD5.js' type='text/javascript'></script>
+  <script language='JavaScript' src='javascript/login.js' type='text/javascript'></script> -->
+  <script
+			  src="https://code.jquery.com/jquery-3.4.0.min.js"
+			  integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg="
+			  crossorigin="anonymous"></script>
+  <script
+			  src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+			  integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+			  crossorigin="anonymous"></script>
+  <script language='JavaScript' src='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js' type='text/javascript'></script>
+  <script language='JavaScript' src='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js' type='text/javascript'></script>
+</head>
+<body>

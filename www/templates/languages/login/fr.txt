@@ -1,0 +1,6 @@
+Edicod_Manager = "Gestion de courrier Edicod"
+Login = "Compte"
+Password = "Mot de passe"
+Sign_in = "Connection"
+Alert = "Attention"
+Debug = "Information debug"

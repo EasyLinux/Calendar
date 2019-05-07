@@ -1,0 +1,82 @@
+{include file='header.smarty'}
+{config_load file=$File}
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-md-12">
+			<div class="alert alert-dismissable alert-info">
+				<h4>
+					{#Edicod_Manager#} {$Version}
+				</h4>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-2">
+		</div>
+		<div class="col-md-8">
+			<form class="form-horizontal" role="form" method='POST' action='login.php'>
+				<div class="form-group">
+					<label for="inputLogin" class="col-sm-2 control-label">
+						{#Login#}
+					</label>
+					<div class="col-sm-10">
+						<input type="text" class="form-control" id="Login" 
+						       name='Login' required='true' />
+					</div>
+				</div>
+				<div class="form-group">
+					 
+					<label for="inputPassword" class="col-sm-2 control-label">
+						{#Password#}
+					</label>
+					<div class="col-sm-10">
+						<input type="password" class="form-control" id="Password" 
+						       name='Password' required='true' />
+					</div>
+				</div>
+				<div class="form-group">
+					<div class="col-sm-offset-2 col-sm-10">
+						 
+						<button type="submit" class="btn btn-default btn-primary">
+							{#Sign_in#}
+						</button>
+					</div>
+				</div>
+				<input type="hidden" id="Action" name="Action" value='Login' />
+			</form>
+		</div>
+		<div class="col-md-2">
+		</div>
+	</div>
+{if $Error != ""}
+	<div class="row">
+		<div class="col-md-12">
+			<div class="alert alert-dismissable alert-danger">
+				 
+				<button type="button" class="close" data-dismiss="alert" aria-hidden="true">
+					×
+				</button>
+				<h4>
+					{#Alert#}
+				</h4> {$Error}
+			</div>
+		</div>
+	</div>
+{/if}
+{if $Debug != ""}
+	<div class="row">
+		<div class="col-md-12">
+			<div class="alert alert-dismissable alert-warning">
+				<button type="button" class="close" data-dismiss="alert" aria-hidden="true">
+					×
+				</button>
+				<h4>
+					{#Debug#}
+				</h4> {$Debug}
+			</div>
+		</div>
+	</div>
+{/if}
+</div>
+</body>
+</html>

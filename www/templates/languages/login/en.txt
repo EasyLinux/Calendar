@@ -1,0 +1,6 @@
+Edicod_Manager = "Edicod courier manager"
+Login = "Login"
+Password = "Password"
+Sign_In = "Sign In"Edicod_Manager
+Alert = "Alert"
+Debug = "Debug"
