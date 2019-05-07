@@ -5,7 +5,7 @@
 		<div class="col-md-12">
 			<div class="alert alert-dismissable alert-info">
 				<h4>
-					{#Edicod_Manager#} {$Version}
+					{#Title#} {$Version}
 				</h4>
 			</div>
 		</div>
