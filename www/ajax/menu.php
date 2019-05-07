@@ -1,6 +1,6 @@
 <?php
 /**
- * Point de départ du programme
+ * Gestion du menu
  * php version 7.2
  * 
  * @category Webapp
