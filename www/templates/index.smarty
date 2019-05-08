@@ -1,15 +1,11 @@
 {include file='header.smarty'}
 {config_load file=$File}
 
-  <div class="container-fluid">
-		<div class="row">
-			<div class="col-md-12">
-				<h2 class="text-center text-primary">
-					{#Title#}
-				</h2>
-			</div>
-		</div>
-		<div class="row">
+
+
+<div class="ui container">
+
+		<div class="row">  
 			<div class="col-md-12">
 				<ul class="nav nav-pills">
 					<li class="nav-item">
@@ -21,12 +17,20 @@
 					<li class="nav-item">
 						<a class="nav-link disabled" href="#">Messages</a>
 					</li>
-					<li class="nav-item dropdown ml-md-auto">
+					<li class="nav-item dropdown"> 
 						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown">Dropdown link</a>
 						<div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
 							<a class="dropdown-item" href="#">Action</a> <a class="dropdown-item" href="#">Another action</a> <a class="dropdown-item" href="#">Something else here</a>
 							<div class="dropdown-divider">
 							</div> <a class="dropdown-item" id="Logout">Logout</a>
+						</div>
+					</li>
+					<li class="nav-item dropdown ml-md-auto">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown">A propos de</a>
+						<div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+							<a class="dropdown-item" href="#">Aide</a> <a class="dropdown-item" href="#">Another action</a> <a class="dropdown-item" href="#">Something else here</a>
+							<div class="dropdown-divider">
+							</div> <a class="dropdown-item">Auteur</a>
 						</div>
 					</li>
 				</ul>
@@ -36,11 +40,18 @@
 				</div>
 			</div>
 		</div>
-		<div class="row">
-			<div class="col-md-12">
-			</div>
-		</div>
-	</div>
+</div>
+
+<br/>
+<div class="ui container">
+  <div class="ui grid">
+    <div class="ui sixteen column">
+      <div id="calendar"></div>
+    </div>
+  </div>
+</div>
+
+</div>
 
     <script src="js/menu.js"></script>
   </body>
