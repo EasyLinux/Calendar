@@ -1,0 +1,12 @@
+    <link href="css/fullcalendar/main.min.css" rel="stylesheet">
+    <link href="css/fullcalendar/daygrid.min.css" rel="stylesheet">
+    <link href="css/fullcalendar/list.min.css" rel="stylesheet">
+    <link href="css/fullcalendar/timegrid.min.css" rel="stylesheet">
+    <link href="css/fullcalendar/daygrid.min.css" rel="stylesheet">
+    <script src="js/fullcalendar/main.min.js"></script>
+    <script src="js/fullcalendar/daygrid.min.js"></script>
+    <script src="js/fullcalendar/google.min.js"></script>
+    <script src="js/fullcalendar/interaction.min.js"></script>
+    <script src="js/fullcalendar/list.min.js"></script>
+    <script src="js/fullcalendar/timegrid.min.js"></script>
+    <script src="js/fullcalendar/locales-all.min.js"></script>

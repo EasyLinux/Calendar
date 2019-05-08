@@ -1,2 +1,9 @@
 # Fichier index.smarty.fr
 Title = "Gestion d'agenda"
+Mo = "Lundi"
+Tu = "Mardi"
+We = "Mercredi"
+Th = "Jeudi"
+Fr = "Vendredi"
+Sa = "Samedi"
+Su = "Dimanche"
